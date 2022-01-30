@@ -1,4 +1,4 @@
-// Roda em todas as páginas
+// Roda em todas as páginas - GLOBAL
 
 function GlobalStyle() {
   return (
@@ -31,7 +31,7 @@ function GlobalStyle() {
   );
 }
 
-export default function MyApp({ Component, pageProps }) {
+export default function CustomApp({ Component, pageProps }) {
   return (
     <>
       <GlobalStyle />
